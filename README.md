@@ -9,7 +9,7 @@
 
 # 1. Abstract
 
-This page is a brief of the working behind your 'new hydration buddy' - HYDROBOT. The bottle reminds the user to drink water if the water level in the bottle has not reduced every hour. It consists of an LCD which gives information such as water temperature and water level. The LCD has 5 different personality modes which can be switched by pressing the button. Along with the LCD, the bottle also has a speaker which gives the user auditory reminder for drinking water. The 5 different modes are: Happy, Sad, Angry, Sassy and Bored. If the user does not wish to have auditory interruptions, the bottle can be set to mode 5 (bored) which is the 'DO NOT DISTURB (DND)' mode. When the water temperature is below 30 °C, a blue LED lights up and when the water temperature is above 30°C, the red LED lights up.
+This page is a brief of the working behind your 'new hydration buddy' - HYDROBOT. The bottle reminds the user to drink water if the water level in the bottle has not reduced every hour. It consists of an LCD which gives information such as water temperature and water level. The LCD has 5 different personality modes which can be switched by pressing the button. Along with the LCD, the bottle also has a speaker which gives the user auditory reminder for drinking water. The 5 different modes are: Happy, Sad, Angry, Sassy and Bored. If the user does not wish to have auditory interruptions, the bottle can be set to mode 5 (bored) which is the 'DO NOT DISTURB (DND)' mode. When the water temperature is at 30 °C or below, a blue LED lights up and when the water temperature is above 30°C, the red LED lights up.
 
 # 2. Motivation
 
@@ -17,7 +17,7 @@ Everyone is so busy and occupied in their daily lives. Sometimes even the basic 
 Here's introducing **Hydrobot**, a bottle that reminds you to hydrate yourself and stay healthy!!!
 
 Don't we all also have a preferred temperature to have our drinks in? Sometimes a little too cold or a little too hot than normal temperature? For example, most university students fall sick, quite often catching a flu during certain months of the season. When you catch a cold, most of us prefer to drink warm water to ease our throat. Even as the weather gets more chilly in Philly, we start avoiding colder water. While getting hot beverages, how many of us have slightly burnt our tongue? I am sure quite a few of us.
-Here's why we are adding the feature of temperature readings to **Hydrobot**, so that everyone can enjoy their drinks in the temperature they'd like and avoid mishaps such as burning your toungue. Even when you don’t need a reminder, **Hydrobot** is a friendly face monitoring the temperature of your water using infrared technology, so you know the temperature is just right!!!
+Here's why we are adding the feature of temperature readings to **Hydrobot**, so that everyone can enjoy their drinks in the temperature they would like and avoid mishaps such as burning their toungue. Even when you don’t need a reminder, **Hydrobot** is a friendly face monitoring the temperature of your water using infrared technology, so you know the temperature is just right!!!
 
 **HYDROBOT** takes you through your own personalised hydration journey:)))
 
@@ -316,4 +316,5 @@ https://drive.google.com/file/d/1wQi7yzXNHPSx-Hg629KHsQ0qWIKia3_e/view?usp=shari
 
 Temperature Sensor:
 https://drive.google.com/file/d/1fPWtl4aOOyst-5PTwyC-3pgUk2JZRs-c/view?usp=sharing
+
 
