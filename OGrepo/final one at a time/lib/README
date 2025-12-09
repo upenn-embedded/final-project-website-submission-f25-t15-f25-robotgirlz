@@ -1,0 +1,119 @@
+
+This directory is intended for project specific (private) libraries.
+PlatformIO will compile them to static libraries and link into the executable file.
+
+The source code of each library should be placed in a separate directory
+("lib/your_library_name/[Code]").
+
+For example, see the structure of the following example libraries `Foo` and `Bar`:
+
+|--lib
+|  |
+|  |--Bar
+|  |  |--docs
+|  |  |--examples
+|  |  |--src
+|  |     |- Bar.c
+|  |     |- Bar.h
+|  |  |- library.json (optional. for custom build options, etc) https://docs.platformio.org/page/librarymanager/config.html
+|  |
+|  |--Foo
+|  |  |- Foo.c
+|  |  |- Foo.h
+|  |
+|  |- README --> THIS FILE
+|
+|- platformio.ini
+|--src
+   |- main.c
+
+Example contents of `src/main.c` using Foo and Bar:
+```
+#include <Foo.h>
+#include <Bar.h>
+
+int main (void)
+{
+  ...
+}
+
+```
+
+The PlatformIO Library Dependency Finder will find automatically dependent
+libraries by scanning project source files.
+
+More information about PlatformIO Library Dependency Finder
+- https://docs.platformio.org/page/librarymanager/ldf.html
+
+
+this is temp test code 
+ uart_init(9600);
+//     I2C0_init(10000);
+//     uint8_t cntrolregnumbe[2];
+//      I2C0_readfromregister(Taddr,REG_CTRL,cntrolregnumbe,2);
+//      tempint();
+//     //calibrate();
+//     while(1){
+//     gettemp();
+//      sprintf(tmp,"temp is %.2f\r\n",gettemp());
+//      uart_print(tmp);
+//      _delay_ms(100);
+//     }
+
+// // wl test code 
+//     uart_init(9600);
+//     adc_init();
+//     while(1){
+//     mLWL();
+//      sprintf(str,"waterlevel in ml %d\r\n", mLWL());
+//         uart_print(str);
+//    _delay_ms(100);
+
+
+
+
+
+ /*  
+
+#include <avr/io.h>
+#include <util/delay.h>
+#include "../include/tempi2c.h"
+#include "../include/uart.h"
+#include "../include/wlLfuncction.h"
+
+
+int main(void){
+   char tmp[64];
+    char str[64];
+    //DDRC &= ~((1 << PC5) | (1 << PC4));  // Inputs
+
+    //PORTC &= ~((1 << PC5) | (1 << PC4)); // No internal pull-ups
+ 
+
+    uart_init(9600);
+    I2C1_init(10000);
+    uint8_t cntrolregnumbe[2];
+     I2C1_readfromregister(Taddr,REG_CTRL,cntrolregnumbe,2);
+     tempint();
+    adc_init();
+    //calibrate();
+    while(1){
+          mLWL();
+     sprintf(str,"waterlevel in ml %d\r\n", mLWL());
+        uart_print(str);
+   _delay_ms(100);
+    gettemp();
+     sprintf(tmp,"temp is %.2f\r\n",gettemp());
+     uart_print(tmp);
+     _delay_ms(500);
+    }
+    
+}
+
+
+
+
+
+
+
+*/
