@@ -109,7 +109,10 @@ Below the extended battery case taped up to the bottle can be viewed:
 # 7. System Block Diagram
 
 The image of the system block diagram can be seen below:
-![alt text](images/WATERBOTTLE BLOCK DIAGRAMfinal.drawio.png)
+<p style="display: flex; justify-content: center; gap: 30px;">
+  <img src="images/WATERBOTTLE BLOCK DIAGRAMfinal.drawio.png" width="400">
+</p>
+
 
 # 8. Electrical
 
@@ -316,6 +319,7 @@ https://drive.google.com/file/d/1wQi7yzXNHPSx-Hg629KHsQ0qWIKia3_e/view?usp=shari
 
 Temperature Sensor:
 https://drive.google.com/file/d/1fPWtl4aOOyst-5PTwyC-3pgUk2JZRs-c/view?usp=sharing
+
 
 
 
